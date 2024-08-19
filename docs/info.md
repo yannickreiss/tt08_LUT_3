@@ -9,12 +9,18 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+The LUT can implement a binary function with three parameters.
+For each possible combination of inputs, a d-flip-flop is storing the desired output.
+To configure which function should be implemented, the table must be pushed into the scan chain.
+After eight clock cycles, the configuration is done.
 
 ## How to test
 
-Explain how to use your project
+Connect a clock, reset, switches and an LED as output.
+Load the table by activating the clock first, then giving the wanted values to the scan chain head.
+After the table is fully loaded, disable the clock and connect the inputs to test, if the design is following the desired lookup table.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Whatever hardware the LUT should be used with.
+For testing, LEDs and switches should be enough.
