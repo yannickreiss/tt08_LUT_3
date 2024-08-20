@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
   wokwi_id:     406639005901420545       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        "3 input LUT"      # Project title
+  title:        "4 input LUT"      # Project title
   author:       "Yannick Reiss"      # Your name
   discord:      "schnick_"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "A LUT with 3 inputs, configured by a scan chain."      # One line description of what your project does
+  description:  "A LUT with 4 inputs, configured by a scan chain."      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -18,14 +18,14 @@ pinout:
   ui[1]: "Input 1"
   ui[2]: "Input 2"
   ui[3]: "Input 3"
-  ui[4]: ""
+  ui[4]: "Input 4"
   ui[5]: ""
   ui[6]: ""
   ui[7]: ""
 
   # Outputs
-  uo[0]: "Output"
-  uo[1]: "Scan Chain output"
+  uo[0]: "Scan Chain Output"
+  uo[1]: "Output"
   uo[2]: ""
   uo[3]: ""
   uo[4]: ""
